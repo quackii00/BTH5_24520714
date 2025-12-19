@@ -110,9 +110,7 @@ namespace Bai10
                 arrowPoints.Clear();
             }
         }
-
-
-        
+      
     }
 }
 
