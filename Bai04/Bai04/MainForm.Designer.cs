@@ -1,6 +1,6 @@
 ﻿namespace Bai04
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -34,9 +34,9 @@
             this.comboBoxSize = new System.Windows.Forms.ComboBox();
             this.labelSize = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.checkBoxBold = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxBold = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.labelColor = new System.Windows.Forms.Label();
             this.buttonColor = new System.Windows.Forms.Button();
@@ -135,37 +135,9 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(322, 65);
             this.tableLayoutPanel2.TabIndex = 1;
-            // 
-            // checkBoxBold
-            // 
-            this.checkBoxBold.AutoSize = true;
-            this.checkBoxBold.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBoxBold.Font = new System.Drawing.Font("Microsoft YaHei", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxBold.Location = new System.Drawing.Point(3, 3);
-            this.checkBoxBold.Name = "checkBoxBold";
-            this.checkBoxBold.Size = new System.Drawing.Size(101, 59);
-            this.checkBoxBold.TabIndex = 0;
-            this.checkBoxBold.Text = "B";
-            this.checkBoxBold.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBoxBold.UseVisualStyleBackColor = true;
-            this.checkBoxBold.CheckedChanged += new System.EventHandler(this.CheckBold);
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.875F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(110, 3);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(101, 59);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "I";
-            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckItalic);
             // 
             // checkBox2
             // 
@@ -181,6 +153,34 @@
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.CheckUnderline);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.875F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(110, 3);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(101, 59);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.Text = "I";
+            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckItalic);
+            // 
+            // checkBoxBold
+            // 
+            this.checkBoxBold.AutoSize = true;
+            this.checkBoxBold.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkBoxBold.Font = new System.Drawing.Font("Microsoft YaHei", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxBold.Location = new System.Drawing.Point(3, 3);
+            this.checkBoxBold.Name = "checkBoxBold";
+            this.checkBoxBold.Size = new System.Drawing.Size(101, 59);
+            this.checkBoxBold.TabIndex = 0;
+            this.checkBoxBold.Text = "B";
+            this.checkBoxBold.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBoxBold.UseVisualStyleBackColor = true;
+            this.checkBoxBold.CheckedChanged += new System.EventHandler(this.CheckBold);
+            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 2;
@@ -192,7 +192,7 @@
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(181, 62);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
@@ -203,7 +203,7 @@
             this.labelColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelColor.Location = new System.Drawing.Point(3, 0);
             this.labelColor.Name = "labelColor";
-            this.labelColor.Size = new System.Drawing.Size(87, 62);
+            this.labelColor.Size = new System.Drawing.Size(86, 62);
             this.labelColor.TabIndex = 0;
             this.labelColor.Text = "Color";
             this.labelColor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -211,10 +211,10 @@
             // buttonColor
             // 
             this.buttonColor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonColor.Location = new System.Drawing.Point(93, 10);
+            this.buttonColor.Location = new System.Drawing.Point(92, 10);
             this.buttonColor.Margin = new System.Windows.Forms.Padding(0, 10, 30, 10);
             this.buttonColor.Name = "buttonColor";
-            this.buttonColor.Size = new System.Drawing.Size(58, 42);
+            this.buttonColor.Size = new System.Drawing.Size(59, 42);
             this.buttonColor.TabIndex = 1;
             this.buttonColor.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonColor.UseVisualStyleBackColor = true;

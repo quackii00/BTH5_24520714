@@ -12,12 +12,12 @@ using System.Runtime.InteropServices;
 
 namespace Bai04
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private bool isBold = false;
         private bool isItalic = false;
         private bool isUnderline = false;
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             int[] fontsize = { 8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 72 };
