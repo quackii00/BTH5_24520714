@@ -1,23 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Diagnostics.Eventing.Reader;
+
 namespace Bai10
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         List<Point> arrowPoints = new List<Point>();
         Bitmap canvas;
         Graphics g;
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
 
@@ -110,7 +104,16 @@ namespace Bai10
                 arrowPoints.Clear();
             }
         }
-      
+
+        private void Clear(object sender, EventArgs e)
+        {
+            
+            arrowPoints.Clear();
+            g.Clear(Color.White);
+            panelDrawing.Invalidate();
+            RePaint();
+            
+        }
     }
 }
 
