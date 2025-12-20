@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Bai09
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         string shape;
         Point startPoint;
         Point endPoint;
         bool isDrawing = false;
         
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
