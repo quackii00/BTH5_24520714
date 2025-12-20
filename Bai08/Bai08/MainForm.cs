@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace Bai08
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         Bitmap Clock;
         Bitmap MinHand;
         Timer sec;
         Timer min;
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             sec = new Timer();
@@ -88,7 +88,7 @@ namespace Bai08
             int vpx = -vy;
             int vpy = vx;
 
-            double k = 0.2;
+            double k = 0.18;
 
             Point D2 = new Point(center.X + (int)(k * vpx),
                                  center.Y + (int)(k * vpy));
@@ -119,7 +119,7 @@ namespace Bai08
             }
             DrawSecHand(g, new Point(x, y), new Point(xx-5, yy-5));
             DrawMinHand(g, new Point(x, y), r);
-            DrawHourHand(g, new Point(x, y), r-20);
+            DrawHourHand(g, new Point(x, y), r-25);
 
         }
 
